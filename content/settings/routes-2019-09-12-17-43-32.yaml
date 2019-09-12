@@ -1,9 +1,9 @@
 routes:
-  /canalunisal/:
+  /canal/:
     controller: channel
     filter: tag:[canal]
     data:
-      post: page.canalunisal
+      post: page.canal
     order: published_at desc
     template: canal
 
