@@ -1,11 +1,9 @@
 routes:
-  /canal/:
+  /professional/:
     controller: channel
-    filter: tag:[canal]
-    data:
-      post: page.canal
+    filter: tag:[pro,ux]
+    template: pro
     order: published_at desc
-    template: canal
 
 collections:
   /:
