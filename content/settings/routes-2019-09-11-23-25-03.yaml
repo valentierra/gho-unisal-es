@@ -1,9 +1,4 @@
 routes:
-  /professional/:
-    controller: channel
-    filter: tag:[pro,ux]
-    template: pro
-    order: published_at desc
 
 collections:
   /:
